@@ -1,0 +1,9 @@
+#Hashtag Generator
+topic = input("Enter your Topic: ")
+topic = topic.replace(" ","_")
+print("Your Hashtag are: ")
+print("#" + topic)
+print("#" + topic.upper())
+print("#" + topic.lower())
+print("#" + topic.capitalize())
+print("#" + topic.title())
